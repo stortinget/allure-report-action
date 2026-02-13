@@ -62,4 +62,4 @@ inputs:
     required: false
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/stortinget/allure-report-action:latest'
